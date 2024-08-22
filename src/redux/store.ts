@@ -1,6 +1,6 @@
+import { authSlice } from "@/features/auth/authSlice/authSlice";
 import type { Action, ThunkAction } from "@reduxjs/toolkit";
 import { combineSlices, configureStore } from "@reduxjs/toolkit";
-import { authSlice } from "./features/auth/authSlice";
 
 const rootReducer = combineSlices(authSlice);
 
