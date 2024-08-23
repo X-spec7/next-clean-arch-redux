@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Header
- = () => {
+const Header = () => {
   return (
     <div className="bg-blue-700 text-white py-4 px-72 shadow-md sticky">
       <div className="mx-auto flex justify-between items-center">

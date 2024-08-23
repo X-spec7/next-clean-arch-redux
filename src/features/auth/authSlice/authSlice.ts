@@ -1,7 +1,7 @@
-import { createAppSlice } from "@/redux/createAppSlice";
-import type { AppThunk } from "@/redux/store";
+
 import type { PayloadAction } from "@reduxjs/toolkit";
 import { login, LoginPayload, register, RegisterPayload } from "../services/authApi";
+import { createAppSlice } from "redux/createAppSlice";
 
 
 export interface AuthSliceState {
