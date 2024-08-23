@@ -1,11 +1,10 @@
-"use-client";
+"use client";
 
-import type { AppStore } from "@/redux/store";
-import { createStore } from "@/redux/store";
 import { setupListeners } from "@reduxjs/toolkit/query";
 import type { ReactNode } from "react";
 import { useEffect, useRef } from "react";
 import { Provider } from "react-redux";
+import { AppStore, createStore } from "redux/store";
 
 interface Props {
   readonly children: ReactNode;
