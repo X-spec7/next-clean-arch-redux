@@ -1,7 +1,7 @@
 export interface LocalStorageTokenInterface {
   accessToken: string,
   refreshToken: string,
-}
+};
 
 export interface AuthState {
   isLoggedIn: boolean,

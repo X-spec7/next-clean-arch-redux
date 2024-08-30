@@ -7,7 +7,7 @@ import { createAppSlice } from "redux/createAppSlice";
 export interface AuthSliceState {
   isAuthenticated: boolean;
   user: any; // Adjust the type as necessary
-}
+};
 
 const initialState: AuthSliceState = {
   isAuthenticated: false,
@@ -38,4 +38,4 @@ export const authSlice = createAppSlice({
     selectIsAuthenticated: (auth) => auth.isAuthenticated,
     selectUser: (auth) => auth.user,
   }
-})
+});
